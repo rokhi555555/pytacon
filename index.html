@@ -1,17 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>form </title>
+  <link rel="stylesheet" href="web1.css">
 </head>
 <body>
-    <h3>Untraced File now</h3>
-      <select name="" id="">
-        <option value="a">Apple</option>
-        <option value="b">Banana</option>
-        <option value="o">Orange</option>
-        <option value="g">Grapes</option>
-      </select>
+  <div class="main">
+    <div class="form">
+      <label for="name" class="username">User-Name :</label>
+      <input type="text" placeholder="Enter your name here" required><br>
+      <label for="password">Password   :</label>
+      <input type="password" name="" id="password" required><br>
+      <label for="dob">Bate-o-Birth:</label>
+      <input type="datetime-local" name="date" id="dob" ><br>
+      <label for="country">Nationality:</label>
+      <select name="" id="" selected="selected" >
+        <option value="pak">Pakistan</option>
+        <option value="India">India</option>
+        <option value="Iran">Iran</option>
+        <option value="china">China</option>
+      </select> <br>
+      <pre>
+      <label for="Course" class="Course">Course :</label>
+      <input type="checkbox" name="course[]" id="">MS Office <br>
+      <input type="checkbox" name="course[]" id="">Aobe Photoshop <br>
+      <input type="checkbox" name="course[]" id="">Artificial Inteligence <br>
+      <input type="checkbox" name="course[]" id="">3D Animation <br>
+      <input type="checkbox" name="course[]" id="">Word Press <br>
+      </pre>
+      <label for="gender">Gender: </label>
+      <input type="radio" name="gender" id="">Female   
+      <input type="radio" name="gender" id="">Male <br>      
+      <input type="button" value="Submit">
+    </div>
+  </div>
 </body>
 </html>
